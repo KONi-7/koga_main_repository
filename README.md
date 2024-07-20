@@ -1,1 +1,1 @@
-# koga_main_repository
+# 私が制作したものを載せています．

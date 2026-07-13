@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一夜漬けを題材に、複数ページ構成と日英切替を実装した学習用Webサイトです。">
+    <title>一夜漬けで試験簡単攻略！！</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+    <header>
+     <img src="logo.svg" alt="一夜漬け徹底攻略のロゴ" width="100" height="120">
+     <div class="daimei">
+        <h1>一夜漬け徹底攻略</h1>
+     </div>
+     <div class="irasuto_header">
+      <img src="study.png" alt="" width="100" height="120">
+     </div>
+    </header> 
+
+    <div class="chat">
+      <a href="chat.html" aria-label="チャットUIデモを開く"><img src="chat_icon.png" alt="" width="64" height="64"></a>
+    </div>
+
+    <div class="lan">
+      <select aria-label="表示言語" onchange="location.href=value;"><option>&#x1F310; 日本語</option><option value="itiyaduke_goods_en.html">ENGLISH</option></select>
+    </div>
+    <nav>
+      <ul class="main_menu">
+         <li><a href ="index.html">トップページ</a></li>
+         <li><a href ="itiyaduke.html">一夜漬けについて</a></li>
+         <li><a href ="itiyaduke_study.html">勉強の進め方</a></li>
+         <li><a href ="itiyaduke_mezame.html">目を覚ます方法</a></li>
+         <li><div class="nav_now"><a href ="itiyaduke_goods.html">一夜漬けグッズ</a></div></li>
+      </ul>
+    </nav>
+    <main class="main"> 
+    <ul class="menu_list">
+      <li><a href="index.html">トップページ</a></li>
+      <li><a href="itiyaduke.html">一夜漬けについて</a></li>
+      <li><a href="itiyaduke_study.html">勉強の進め方</a></li>
+      <li><a href="itiyaduke_mezame.html">目を覚ます方法</a></li>
+      <li><a href="itiyaduke_goods.html">一夜漬けグッズ</a></li>
+    </ul> 
+    <div class="honbun">
+      <h2>一夜漬けグッズ</h2>
+      <aside class="notice" aria-label="注意事項">食品や飲料の成分量には製品差があります。表示を確認し、カフェインの過剰摂取を避けてください。詳しくは<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000170477.html" target="_blank" rel="noopener noreferrer">厚生労働省の案内</a>を参照してください。</aside>
+      <p>一夜漬けで使えるグッズを2つ紹介したいと思います。</p>
+      <h3>コーヒー</h3>
+      <div class="goods">
+         <img src="coffee.jpg" alt="コーヒーカップ" width="320" height="320">
+         <p>一つ目は、コーヒーです。カフェイン量はコーヒーやエナジードリンクの種類・容量によって異なるため、どちらが多いとは一概に言えません。利用する場合は製品表示を確認し、摂取量と時間帯に注意しましょう。</p>
+      </div>
+      <h3>ラムネ</h3>
+      <div class="goods">
+         <img src="ramune.jpg" alt="ラムネ菓子" width="240" height="240">
+         <p>2つ目は、ラムネです。ラムネは他のお菓子よりもブドウ糖を多く含んでいます。ブドウ糖は、摂取することで脳に栄養が供給されるため、脳の活性化や疲労回復といった効果があります。そのため、ラムネは手軽に疲れた脳にエネルギーを供給できるのでおすすめです。</p>
+      </div>
+   </div>
+    </main>
+    <footer>
+        <ul class="footer_main">
+           <li>西浦 昊河</li>
+           <li>koga.amrr.n@gmail.com</li>
+        </ul>
+      </footer>
+ </body>
+</html>

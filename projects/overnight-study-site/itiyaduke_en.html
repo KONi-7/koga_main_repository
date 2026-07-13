@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A bilingual multi-page website created to practise HTML, CSS and JavaScript.">
+    <title>About Overnight Study | Learning Project</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+    <header>
+     <img src="logo.svg" alt="Overnight Study Guide logo" width="100" height="120">
+     <div class="daimei">
+        <h1>Overnight Study Guide</h1>
+     </div>
+     <div class="irasuto_header">
+      <img src="study.png" alt="" width="100" height="120">
+     </div>
+    </header> 
+
+    <div class="chat">
+      <a href="chat.html" aria-label="Open the chat UI demo"><img src="chat_icon.png" alt="" width="64" height="64"></a>
+    </div>
+
+    <div class="lan">
+      <select aria-label="Display language" onchange="location.href=value;"><option>&#x1F310; ENGLISH</option><option value="itiyaduke.html">日本語</option></select>
+    </div>
+    <nav>
+      <ul class="main_menu">
+         <li><a href ="index_en.html">Home</a></li>
+         <li><div class="nav_now"><a href ="itiyaduke_en.html">About Overnight Study</a></div></li>
+         <li><a href ="itiyaduke_study_en.html">Study Planning</a></li>
+         <li><a href ="itiyaduke_mezame_en.html">Staying Awake</a></li>
+         <li><a href ="itiyaduke_goods_en.html">Study Supplies</a></li>
+
+      </ul>
+    </nav>
+    <main class="main"> 
+    <ul class="menu_list">
+      <li><a href="index_en.html">Home</a></li>
+      <li><a href="itiyaduke_en.html">About Overnight Study</a></li>
+      <li><a href="itiyaduke_study_en.html">Study Planning</a></li>
+      <li><a href="itiyaduke_mezame_en.html">Staying Awake</a></li>
+      <li><a href="itiyaduke_goods_en.html">Study Supplies</a></li>
+    </ul> 
+    <div class="honbun">
+      <h2>About Overnight Study</h2>
+      <aside class="notice" aria-label="Notice">Prioritise adequate sleep for your health and learning. This page is content for a web-development exercise.</aside>
+      <img src="study_main.jpg" alt="Studying with a notebook" width="640" height="480" style="display:block;margin:auto;">
+      <p>Overnight cramming means trying to cover a large amount of material immediately before an exam. It may feel time-efficient, but it reduces sleep and can make it harder to concentrate.</p>
+      <p>A more reliable approach is to identify the most important topics early, divide them into small tasks and leave time for review.</p>
+      <p>If preparation starts late, prioritise the key concepts instead of trying to memorise everything. Short breaks and a clear stopping time can also help prevent exhaustion.</p>
+      <p>This page keeps the original theme of the project while presenting it as a web-development exercise rather than health or academic advice.</p>
+    </div>
+    </main>
+    <footer>
+        <ul class="footer_main">
+           <li>Koga Nishiura</li>
+           <li>koga.amrr.n@gmail.com</li>
+        </ul>
+      </footer>
+ </body>
+</html>

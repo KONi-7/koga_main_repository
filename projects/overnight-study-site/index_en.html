@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A bilingual multi-page website created to practise HTML, CSS and JavaScript.">
+    <title>Overnight Study Guide | Learning Project</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+    <header>
+     <img src="logo.svg" alt="Overnight Study Guide logo" width="100" height="120">
+     <div class="daimei">
+        <h1>Overnight Study Guide</h1>
+     </div>
+     <div class="irasuto_header">
+      <img src="study.png" alt="" width="100" height="120">
+     </div>
+    </header> 
+
+    <div class="chat">
+      <a href="chat.html" aria-label="Open the chat UI demo"><img src="chat_icon.png" alt="" width="64" height="64"></a>
+    </div>
+
+    <div class="lan">
+      <select aria-label="Display language" onchange="location.href=value;"><option>&#x1F310; ENGLISH</option><option value="index.html">日本語</option></select>
+    </div>
+
+    <nav>
+      <ul class="main_menu">
+         <li><div class="nav_now"><a href ="index_en.html">Home</a></div></li>
+         <li><a href ="itiyaduke_en.html">About Overnight Study</a></li>
+         <li><a href ="itiyaduke_study_en.html">Study Planning</a></li>
+         <li><a href ="itiyaduke_mezame_en.html">Staying Awake</a></li>
+         <li><a href ="itiyaduke_goods_en.html">Study Supplies</a></li>
+      </ul>
+    </nav>
+    <main class="main"> 
+    <ul class="menu_list">
+      <li><a href="index_en.html">Home</a></li>
+      <li><a href="itiyaduke_en.html">About Overnight Study</a></li>
+      <li><a href="itiyaduke_study_en.html">Study Planning</a></li>
+      <li><a href="itiyaduke_mezame_en.html">Staying Awake</a></li>
+      <li><a href="itiyaduke_goods_en.html">Study Supplies</a></li>
+    </ul> 
+    <div class="honbun">
+      <h2>Overnight Study Guide</h2>
+      <aside class="notice" aria-label="Notice">This is an HTML, CSS and JavaScript learning project. It does not recommend sleep deprivation or excessive caffeine intake.</aside>
+      <p>This bilingual website was created as an exercise in building a multi-page site with HTML, CSS and JavaScript.</p>
+      <p>It explores study planning through the theme of last-minute revision while demonstrating navigation, language switching, responsive layout and a small chat interface.</p>
+      <p>For real study, plan ahead where possible and prioritise sufficient sleep.</p>
+      <img src="top.jpg" alt="Studying at a desk" width="720" height="480" style="display:block;margin:auto;">
+    </div>
+    </main>
+    <footer>
+      <ul class="footer_main">
+         <li>Koga Nishiura</li>
+         <li>koga.amrr.n@gmail.com</li>
+      </ul>
+    </footer>
+ </body>
+</html>

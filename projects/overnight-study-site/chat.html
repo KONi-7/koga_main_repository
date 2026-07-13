@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JavaScriptのDOM操作とイベント処理を確認するチャットUIデモです。">
+    <title>チャットUIデモ</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <h1 class="chat_h1">チャットUIデモ</h1>
+    <p class="chat-description">入力内容を画面へ追加する、フロントエンドのみのデモです。</p>
+
+    <div class="chat-container">
+        <div class="chat-window" id="chat-window">
+            <!-- チャットメッセージがここに表示されます -->
+        </div>
+        <div class="input-area">
+            <label class="visually-hidden" for="chat-input">メッセージ</label>
+            <input type="text" id="chat-input" placeholder="メッセージを入力してください..." autocomplete="off">
+            <button id="send-button" type="button">送信</button>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+
+    <div class="chat_back">
+    <a href="index.html" aria-label="トップページへ戻る"><img src="back_icon.png" alt="" width="56" height="56"></a>
+    </div>
+
+</body>
+</html>

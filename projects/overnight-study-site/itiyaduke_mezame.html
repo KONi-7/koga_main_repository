@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ja">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一夜漬けを題材に、複数ページ構成と日英切替を実装した学習用Webサイトです。">
+    <title>一夜漬けで試験簡単攻略！！</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+ <body>
+    <header>
+     <img src="logo.svg" alt="一夜漬け徹底攻略のロゴ" width="100" height="120">
+     <div class="daimei">
+        <h1>一夜漬け徹底攻略</h1>
+     </div>
+     <div class="irasuto_header">
+      <img src="study.png" alt="" width="100" height="120">
+     </div>
+    </header> 
+
+    <div class="chat">
+      <a href="chat.html" aria-label="チャットUIデモを開く"><img src="chat_icon.png" alt="" width="64" height="64"></a>
+    </div>
+
+    <div class="lan">
+      <select aria-label="表示言語" onchange="location.href=value;"><option>&#x1F310; 日本語</option><option value="itiyaduke_mezame_en.html">ENGLISH</option></select>
+    </div>
+    <nav>
+      <ul class="main_menu">
+         <li><a href ="index.html">トップページ</a></li>
+         <li><a href ="itiyaduke.html">一夜漬けについて</a></li>
+         <li><a href ="itiyaduke_study.html">勉強の進め方</a></li>
+         <li><div class="nav_now"><a href ="itiyaduke_mezame.html">目を覚ます方法</a></div></li>
+         <li><a href ="itiyaduke_goods.html">一夜漬けグッズ</a></li>
+      </ul>
+    </nav>
+    <main class="main"> 
+    <ul class="menu_list">
+      <li><a href="index.html">トップページ</a></li>
+      <li><a href="itiyaduke.html">一夜漬けについて</a></li>
+      <li><a href="itiyaduke_study.html">勉強の進め方</a></li>
+      <li><a href="itiyaduke_mezame.html">目を覚ます方法</a></li>
+      <li><a href="itiyaduke_goods.html">一夜漬けグッズ</a></li>
+    </ul> 
+    <div class="honbun">
+      <h2>目を覚ます方法</h2>
+      <aside class="notice" aria-label="注意事項">眠気が強いときは無理をせず休みましょう。カフェインの過剰摂取にも注意してください。詳しくは<a href="https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000170477.html" target="_blank" rel="noopener noreferrer">厚生労働省の案内</a>を参照してください。</aside>
+      <img src="neoti.png" alt="眠気を感じている人" width="360" height="360" style="float:left;margin:10px 50px 60px 0px;">
+      <p>一夜漬け中に眠気を覚ます方法をいくつか紹介したいと思います。</p>
+      <p>カフェインを含む飲料には覚醒作用がありますが、含有量は製品によって異なります。また、摂取する時刻や体質によっては、その後の睡眠に影響することがあります。</p>
+      <p>過剰に摂取すると、めまい、動悸、不安、不眠、吐き気などの健康被害につながる可能性があります。複数の飲料を組み合わせず、製品表示と公的機関の注意事項を確認することが重要です。</p>
+      <p>2つ目は、発声することです。歌を歌いながら計算を解いたり、声に出しながら暗記をすることで、目を覚ましながら勉強効率を上げることができます。</p>
+      <p>最後に、立って勉強をするということです。ずっと座って勉強ばかりしていたら必ずと言っていいほど強い睡魔に襲われてしまいます。なので、眠くなってきたと感じた時には立って勉強するようにしましょう。</p>
+   </div>
+    </main>
+    <footer>
+        <ul class="footer_main">
+           <li>西浦 昊河</li>
+           <li>koga.amrr.n@gmail.com</li>
+        </ul>
+      </footer>
+ </body>
+</html>
